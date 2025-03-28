@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88A423752D96B968008D3ED8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A423742D96B968008D3ED8 /* Constants.swift */; };
+		88A45AAE2D96812D00D96191 /* View + CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A45AAD2D96812D00D96191 /* View + CornerRadius.swift */; };
 		88F9C7B82D9674070012FF93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F9C7B02D9674070012FF93 /* Assets.xcassets */; };
 		88F9C7BA2D9674070012FF93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F9C7B32D9674070012FF93 /* LaunchScreen.storyboard */; };
 		88F9C7BB2D9674070012FF93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F9C7B52D9674070012FF93 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88A423742D96B968008D3ED8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		88A45AAD2D96812D00D96191 /* View + CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + CornerRadius.swift"; sourceTree = "<group>"; };
 		88F9C78A2D9672360012FF93 /* Shoppe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoppe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F9C7A82D9674070012FF93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88F9C7A92D9674070012FF93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,6 +29,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		88A45AA72D967C8F00D96191 /* Supporting Assets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			name = "Supporting Assets";
+			path = "Shoppe/Supporting Assets";
+			sourceTree = SOURCE_ROOT;
+		};
 		88F9C7BF2D9674130012FF93 /* Controllers */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Controllers;
@@ -78,6 +88,8 @@
 		88F9C7AC2D9674070012FF93 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				88A45AAD2D96812D00D96191 /* View + CornerRadius.swift */,
+				88A423742D96B968008D3ED8 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -117,6 +129,7 @@
 				88F9C7AD2D9674070012FF93 /* Model */,
 				88F9C7AE2D9674070012FF93 /* ViewModels */,
 				88F9C7AF2D9674070012FF93 /* Views */,
+				88A45AA72D967C8F00D96191 /* Supporting Assets */,
 			);
 			path = Shoppe;
 			sourceTree = "<group>";
@@ -137,6 +150,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				88A45AA72D967C8F00D96191 /* Supporting Assets */,
 				88F9C7BF2D9674130012FF93 /* Controllers */,
 			);
 			name = Shoppe;
@@ -200,6 +214,8 @@
 			files = (
 				88F9C7BC2D9674070012FF93 /* AppDelegate.swift in Sources */,
 				88F9C7BD2D9674070012FF93 /* SceneDelegate.swift in Sources */,
+				88A423752D96B968008D3ED8 /* Constants.swift in Sources */,
+				88A45AAE2D96812D00D96191 /* View + CornerRadius.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,8 +246,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C3H69HN2B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Shoppe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -247,6 +265,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.eQuest.Shoppe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -262,8 +281,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C3H69HN2B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Shoppe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -279,6 +300,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.eQuest.Shoppe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
